@@ -7,7 +7,7 @@
 html, body {
     height: 100%;
     font-family: Helvetica, Arial, sans-serif;
-    background-color: #E8E2D2;
+    background-color: #fafafa;
 }
 
 body p {
@@ -116,15 +116,15 @@ video {
 
 /* HEADER */
 header {
-    background-color: #455136;
+    background-color: #ffffff;
     color: rgb(45, 45, 45);
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'DM Sans', sans-serif;
     padding-top: 30px;
     padding-bottom: 10px;
 }
 
 h1 {
-    color: #E6E3D2;
+    color: #36288F;
     text-align: center;
     font-size: 100px;
     margin: 0;
@@ -133,7 +133,7 @@ h1 {
 
 h2 {
     padding-bottom: 1em;
-    color: #455136;
+    color: #36288F;
 }
 
 header li{
@@ -157,7 +157,7 @@ header li{
     letter-spacing: 2px;
     font-weight: bold;
     text-decoration: none;
-    color: #DE9E7C;
+    color: #5ACCBA;
     transition: 0.7s;
   }
   
@@ -184,7 +184,7 @@ header li{
   }
   
   a:hover{
-    color: #DD795A;
+    color: #a3e6db;
   }
 
   a:active{
