@@ -6,12 +6,36 @@
 
 html, body {
     height: 100%;
-    font-family: Helvetica, Arial, sans-serif;
-    background-color: #fafafa;
+    font-family: 'DM Sans', sans-serif;
+    background-color: white;
+    color: #202020;
+}
+
+a {
+    text-decoration: none;
+}
+
+#projects a {
+    transition: 0.7s;
+}
+
+#projects a:visited {
+    color: #5ACCBA; /* teal */
+}
+
+#projects a:hover {
+    color: #a3e6db; /* light teal */
+}
+
+h3 {
+    color: #5ACCBA; /* teal */
+}
+
+#projects #github {
+    color: #202020;
 }
 
 body p {
-    font-family: 'Roboto', sans-serif;
     font-size: 20px;
 }
 
@@ -37,17 +61,20 @@ video {
 #face {
     height: calc(15vw + 40px);
     float: left;
-    margin-left: 5vw;
+    margin-left: 6vw;
     margin-top: 3vh;
-    padding-right: 5vw;
-    border-right: 1px solid black;
 }
 
 #face img {
     width: auto;
-    height: 15vw;
-    border: 10px solid #DE9E7C;
-    border-radius: 50%;
+    height: 20vw;
+}
+
+#nameTitle img {
+    width: auto;
+    height: 6vw;
+    display: block;
+    margin: 0 auto;
 }
 
 #desc {
@@ -66,23 +93,25 @@ video {
 #learn-more {
 	position: absolute;
     margin: auto;
-    top: 75vh; 
-    left: calc(50% - (0.5 * 20vw));
-    width: 20vw;
-    height: 10vh;
-    line-height: 10vh;
-    background-color: #DD795A;
+    top: 65vh; 
+    left: calc(50% - (0.5 * 15vw));
+    width: 15vw;
+    height: 8vh;
+    background-color: #36288F; /* purple */
     text-align: center;
-    border-radius: 60px;
-    transition: 0.7s;
 }
+
+#learn-more:hover{
+    box-shadow: -1px 1px 5px 1px #a0a0a0; /* light grey */
+  }
 
 #learn-more a {
     position: relative;
-    color: #E6E3D2;
+    color: white;
     font-size: 15px;
-    letter-spacing: 4px;
     font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 8vh;
     text-decoration: none;
     display: block;
     height: 100%;
@@ -109,31 +138,31 @@ video {
 
 #work ul, #skills ul, #projects ul{
     list-style-position: inside;
-    font-family: 'Roboto', sans-serif;
     list-style-type: disc;
 }
 
 
 /* HEADER */
 header {
-    background-color: #ffffff;
-    color: rgb(45, 45, 45);
+    background-color: white;
     font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
     padding-top: 30px;
     padding-bottom: 10px;
 }
 
 h1 {
-    color: #36288F;
+    color: #36288F; /* purple */
     text-align: center;
     font-size: 100px;
     margin: 0;
     padding-left: 15px;
+    font-weight: bold;
 }
 
 h2 {
     padding-bottom: 1em;
-    color: #36288F;
+    color: #36288F; /* purple */
 }
 
 header li{
@@ -146,7 +175,6 @@ header li{
   footer a, footer p{
     font-size: 12px;
     letter-spacing: 2px;
-    font-weight: bold;
     text-decoration: none;
     color: black;
     transition: 0.7s;
@@ -157,7 +185,7 @@ header li{
     letter-spacing: 2px;
     font-weight: bold;
     text-decoration: none;
-    color: #5ACCBA;
+    color: #5ACCBA; /* teal */
     transition: 0.7s;
   }
   
@@ -178,17 +206,13 @@ header li{
   button{
     display: none;
   }
-
-  #learn-more:hover{
-    background-color: #DE9E7C;
-  }
   
   a:hover{
-    color: #a3e6db;
+    color: #a3e6db; /* light teal */
   }
 
   a:active{
-    color: #DD795A;
+    color: #DD795A; /* dark peach */
   }
 
 
