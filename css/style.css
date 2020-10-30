@@ -23,6 +23,10 @@ a {
     color: #5ACCBA; /* teal */
 }
 
+#projects a:link {
+    color: #5ACCBA; /* teal */
+}
+
 #projects a:hover {
     color: #a3e6db; /* light teal */
 }
