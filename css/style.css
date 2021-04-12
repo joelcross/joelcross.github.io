@@ -44,19 +44,23 @@ h3 {
     width: auto;
     border: 1px solid #bfbfbf;
     margin-top: 25px;
+    margin-bottom: 25px;
     display: block;
+}
+
+#dreambuddy {
+    height:300px;
+    width: auto;
+    border: 1px solid #bfbfbf;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
 }
 
-#hexy {
-    height:500px;
-    width: auto;
-    border: 1px solid #bfbfbf;
-    margin-top: 25px;
+#dreambuddyContainer {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 body p {
